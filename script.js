@@ -140,21 +140,21 @@ function equalsbutton(){
 
         case 2:
             nm2 = parseInt(display.value);
-            results = operate(nm1,nm2,addValues);
+            results = operate(nm1,nm2,reduceValues);
             clean();
             display.value = results;
             break
 
         case 3:
             nm2 = parseInt(display.value);
-            results = operate(nm1,nm2,addValues);
+            results = operate(nm1,nm2,multiplyValues);
             clean();
             display.value = results;
             break
 
         case 4:
             nm2 = parseInt(display.value);
-            results = operate(nm1,nm2,addValues);
+            results = operate(nm1,nm2,divideValues);
             clean();
             display.value = results;
             break

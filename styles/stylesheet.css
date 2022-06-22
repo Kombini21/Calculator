@@ -1,7 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+
+
+body {
+
+    background-color: #F2EBE9;
+    font-family: 'Oswald', sans-serif;
+}
+
+.display {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
 .calculadora {
 
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    
+    
 
+}
+
+.calculadora-body {
+
+    background-color: none;
+    width: 50vh;
+    height: 50vh;
+    text-align: center;
+    margin-top: 3vh;
+    border-radius: 15px;
+    background-color: #243A73;
+    padding: 5vh;
+    padding-bottom: 8vh;
+    font-family: 'Oswald', sans-serif;
+    border: 3px black solid;
+    
+}
+
+.row1{
+
+    margin-top: 2vh;
+}
+
+.botoes {
+
+    height: 10vh;
+    width: 10vh;
+    margin-top: 0.8vh;
+    background-color: #A5BECC;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    
+}
+
+input {
+
+
+    height: 3em;
+    background-color: #d6e6ee;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0.1em 0.1em 0.3em;
+
+    
+}
+
+.tela-disp{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    width: 30vh;
+    font-size: 2em;
+    height: 10vh;
+    text-align: right;
+    box-shadow: none;
+    padding-right: 3px;
+    caret-color: transparent;
+}
+
+#c-button {
+
+
+    width: 4em;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+.foot {
+
+    margin-top: 16vh;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #7C3E66;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

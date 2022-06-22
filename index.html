@@ -11,53 +11,61 @@
 <body>
 
     <div class = "calculadora">
+
+        <div class="calculadora-body">
         
-        <div class = "display">
+            <div class = "display">
 
-            <td colspan="3"><input type="text" id="result" value=""/></td>
+                <td colspan="3" ><input class="tela-disp" type="number" id="result" value=""  onblur="this.focus()" autofocus/></td>
 
-            <input type="button" value="C" onclick="clean()"/>
+                <input id=c-button type="button" value="C" onclick="clean()"/>
+
+            </div>
+
+            <div class = "row1">
+
+                <input class="botoes" type="button" value="1" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="2" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="3" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="/" onclick="divisbutton()"/>
+
+            </div>
+
+            <div class= "row2">
+
+                <input class="botoes" type="button" value="4" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="5" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="6" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="-" onclick="menosbutton()"/>
+
+            </div>
+
+            <div class= "row3">
+
+                <input class="botoes" type="button" value="7" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="8" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="9" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="+" onclick="maisbutton()"/>
+
+            </div>
+
+            <div class= "row4">
+
+                <input class="botoes" type="button" value="." onclick="f1(this)"/>
+                <input class="botoes" type="button" value="0" onclick="f1(this)"/>
+                <input class="botoes" type="button" value="=" onclick="equalsbutton()"/>
+                <input class="botoes" type="button" value="*" onclick="vezesbutton()"/>
+
+            </div>
 
         </div>
 
-        <div class = "row1">
 
-            <input type="button" value="1" onclick="f1(this)"/>
-            <input type="button" value="2" onclick="f1(this)"/>
-            <input type="button" value="3" onclick="f1(this)"/>
-            <input type="button" value="/" onclick="divisbutton()"/>
-
-        </div>
-
-        <div class= "row2">
-
-            <input type="button" value="4" onclick="f1(this)"/>
-            <input type="button" value="5" onclick="f1(this)"/>
-            <input type="button" value="6" onclick="f1(this)"/>
-            <input type="button" value="-" onclick="menosbutton()"/>
-
-        </div>
-
-        <div class= "row3">
-
-            <input type="button" value="7" onclick="f1(this)"/>
-            <input type="button" value="8" onclick="f1(this)"/>
-            <input type="button" value="9" onclick="f1(this)"/>
-            <input type="button" value="+" onclick="maisbutton()"/>
-
-        </div>
-
-        <div class= "row4">
-
-            <input type="button" value="." onclick="f1(this)"/>
-            <input type="button" value="0" onclick="f1(this)"/>
-            <input type="button" value="=" onclick="equalsbutton()"/>
-            <input type="button" value="*" onclick="vezesbutton()"/>
-
-        </div>
-
+        <div class="foot"><div class="foot-writing"> Gabriel Terrazas - kb</div></div>
 
     </div>
+
+   
     
 </body>
 </html>

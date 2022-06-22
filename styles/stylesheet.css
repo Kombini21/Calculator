@@ -112,3 +112,21 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+
+@media only screen and (max-width: 768px ) {
+
+
+    .calculadora-body {
+
+        width: 30vh;
+        height: 50vh;
+    }
+
+    .botoes {
+        height: 8vh;
+        width: 7vh;
+    }
+
+
+}

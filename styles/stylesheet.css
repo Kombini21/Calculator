@@ -126,7 +126,12 @@ input::-webkit-inner-spin-button {
     .botoes {
         height: 8vh;
         width: 7vh;
+        pointer-events: none;
     }
 
+    #result {
+
+        pointer-events: none;
+    }
 
 }
